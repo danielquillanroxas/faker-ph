@@ -83,6 +83,12 @@ Off-the-shelf multilingual PII detectors (`Presidio`, `GLiNER-Multi-PII`, `Azure
 
 `faker-ph` encodes these at the generator level so NLP corpora built on it reflect real Philippine linguistic and administrative reality.
 
+## Relationship to `faker`
+
+`faker-ph` is inspired by and complements [`faker`](https://github.com/joke2k/faker), the widely used Python synthetic-data library. `faker` ships an `en_PH` locale, but its Philippine coverage stops at generic names and US-shaped addresses; it does not generate format-valid government identifiers (`PSN`, `TIN`, `SSS`, `PhilHealth PIN`, `UMID`, `PRC`, `DFA` passport), `PSGC`-aware addresses at barangay resolution, carrier-specific mobile prefixes, origin-stratified name buckets, or Filipino-style date expressions (`Ika-12 ng Hunyo, 1998`). `faker-ph` fills that gap.
+
+The two are designed to sit alongside each other. Use `faker.Faker()` for cross-locale generic data and `faker_ph.FakerPH()` for Philippine identifiers and linguistically realistic structure.
+
 ## What's here / what's coming
 
 **`v0.1.0` ships:** `FakerPH` class (25+ identifier generators plus address/name/date/email methods and a `patient_record()` builder), bundled `PSGC` data (17 regions, 117 provinces, 1,648 cities, 42,036 barangays), mobile and landline tables, origin-stratified name inventory, `render()` utility, three starter templates, and 20 deterministic example outputs.
