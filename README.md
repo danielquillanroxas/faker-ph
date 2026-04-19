@@ -156,8 +156,6 @@ Generated identifiers are **format-valid but unregistered**; do not use them to 
 }
 ```
 
-A companion paper is in preparation; this entry will be updated once published.
-
 ## Contributing
 
 Issues and PRs welcome. Run `pytest` and `ruff check .` before submitting. For large changes (new template categories, checksum algorithms, additional name buckets), open an issue first.
