@@ -1,0 +1,125 @@
+{
+  "_sources": [
+    "https://www.tagaloglang.com/most-common-filipino-surnames/",
+    "Wikipedia: List of most common surnames in Asia (Philippines section)",
+    "Forebears.io/philippines/surnames (reference)",
+    "PSA Civil Registry aggregated reports"
+  ],
+  "_usage_notes": "For synthetic generation, sample surnames from the origin bucket with realistic demographic weights: Spanish (~50% of population), Native Tagalog (~25%, varies by region), Chinese (~3%), Anglo (~2%, mostly Fil-Am). These are not validated census proportions; use as reasonable starting weights and tune later.",
+  "_warning": "Do NOT use these lists as training data for name-recognition models without adding regional variation, nickname forms (pag-abbreviate ng pangalan), and diminutives. For Faker-PH synthetic data only.",
+
+  "surnames": {
+    "spanish_origin": [
+      "Santos", "Reyes", "Cruz", "Bautista", "Ocampo", "Garcia", "Mendoza",
+      "Torres", "Tomas", "Andrada", "Castillo", "Flores", "Villanueva",
+      "Ramos", "Castro", "Rivera", "Aquino", "Navarro", "Salazar", "Mercado",
+      "Gonzales", "Diaz", "Lopez", "Hernandez", "Perez", "Martinez", "Jimenez",
+      "Fernandez", "Gutierrez", "Rodriguez", "Sanchez", "Vargas", "Rosario",
+      "Santiago", "Domingo", "Aguilar", "Herrera", "Velasco", "Arellano",
+      "Enriquez", "Manalo", "Pascual", "Valdez", "Francisco", "Valencia",
+      "Soriano", "Morales", "Javier", "Magsaysay", "Recto", "Laurel",
+      "dela Cruz", "delos Reyes", "del Rosario", "delos Santos", "de Guzman",
+      "de Castro", "de la Vega", "de la Rosa", "de Asis", "de Leon",
+      "de los Angeles", "del Pilar", "del Mundo", "de Villa", "de Jesus",
+      "Divinagracia", "Ortiz", "Rodrigo", "Osmena", "Marcos", "Lacson",
+      "Maceda", "Enrile", "Defensor", "Madrigal", "Mitra", "Pangilinan",
+      "Estrada", "Roxas", "Legarda", "Cayetano", "Binay", "Robredo", "Duterte"
+    ],
+    "native_tagalog_austronesian": [
+      "Dimaandal", "Dimaano", "Dimabuyu", "Dimakulangan", "Dimaguiba",
+      "Dimapasok", "Dimasalang", "Dimatibag", "Dimayuga", "Dimalanta",
+      "Guinto", "Macaraeg", "Matapang", "Masipag", "Lumaban", "Pulumbarit",
+      "Tagalicud", "Tagalikod", "Bayani", "Bautista", "Batumbakal",
+      "Bulaklak", "Catacutan", "Bagsik", "Balagtas", "Datu", "Lakandula",
+      "Lapu-Lapu", "Malakas", "Maganda", "Diwata", "Mabuhay", "Katipunan",
+      "Makatutubo", "Kayumanggi", "Aninag", "Hiyas", "Tala",
+      "Agbayani", "Pangilinan", "Batungbakal", "Pamintuan", "Malabanan",
+      "Buenaventura", "Dalisay", "Amistad"
+    ],
+    "chinese_origin": [
+      "Chan", "Cheng", "Chua", "Co", "Cue", "Dee", "Go", "Ku", "Lee", "Lim",
+      "Tan", "Tiu", "Ting", "Ty", "Sy", "Yap", "Yee", "Ong", "Ang", "Uy",
+      "Gokongwei", "Uytengsu", "Angangco", "Cojuangco", "Tantoco", "Yuchengco",
+      "Cojuanco", "Sytengco", "Tanjuatco", "Tantiangco", "Tantingco",
+      "Limjoco", "Litiatco", "Simpauco", "Suico", "Syjuco", "Yujuico",
+      "Uyboco", "Yusingco", "Yuvienco", "Pantangco", "Onglatco",
+      "Sincioco", "Yapjuangco", "Chikiamco", "Dyquiangco", "Felongco",
+      "Limlengco", "Limcaco", "Limpingco", "Limtuaco"
+    ],
+    "anglo_origin_rare": [
+      "Smith", "Johnson", "Brown", "Anderson", "Williams", "Miller",
+      "Wilson", "Taylor", "Thompson", "Martin", "Jackson", "Robinson",
+      "Walker", "Young", "Hill", "King", "Wright", "Green", "Moore",
+      "Clark", "Lewis", "Hall", "Allen", "Baker", "Foster", "Carter",
+      "Harris", "Turner", "Campbell", "Cook", "Parker"
+    ]
+  },
+
+  "first_names": {
+    "masculine": {
+      "common_spanish_saint": [
+        "Jose", "Juan", "Pedro", "Pablo", "Miguel", "Antonio", "Francisco",
+        "Manuel", "Luis", "Carlos", "Eduardo", "Ricardo", "Roberto", "Rafael",
+        "Fernando", "Rodolfo", "Ramon", "Mario", "Martin", "Mateo",
+        "Nicolas", "Santiago", "Tomas", "Alejandro", "Gabriel", "Raul",
+        "Ernesto", "Emilio", "Enrique", "Julio", "Cesar", "Armando"
+      ],
+      "common_english_filam_influence": [
+        "John", "Paul", "Mark", "Matthew", "Luke", "James", "Michael",
+        "Christian", "Christopher", "Kevin", "Ryan", "Brian", "Andrew",
+        "Daniel", "Joshua", "Jacob", "Aaron", "Ethan", "Bryan", "Justin",
+        "Jerome", "Kenneth", "Dennis", "Joseph"
+      ],
+      "native_tagalog_popular": [
+        "Bayani", "Lakandula", "Dakila", "Makisig", "Diwa", "Talibong",
+        "Lakas", "Sandigan", "Makatao"
+      ],
+      "diminutive_nicknames": [
+        "Jojo", "Jun", "Junjun", "Boy", "Bong", "Bongbong", "Totoy",
+        "Dodong", "Dong", "Yayoy", "Toti", "Chito", "Butch", "Ding",
+        "Jhun", "Mar", "Nik", "Rich", "Rey"
+      ]
+    },
+    "feminine": {
+      "common_spanish_saint": [
+        "Maria", "Ana", "Rosa", "Josefa", "Carmen", "Lourdes", "Concepcion",
+        "Dolores", "Elena", "Esperanza", "Teresa", "Cristina", "Gloria",
+        "Luisa", "Consuelo", "Clara", "Isabel", "Victoria", "Virginia",
+        "Margarita", "Patricia", "Andrea", "Angela", "Catalina", "Regina"
+      ],
+      "common_english_filam_influence": [
+        "Angel", "Grace", "Hope", "Faith", "Joy", "Jasmine", "Jennifer",
+        "Jessica", "Michelle", "Christine", "Angelica", "Angelyn",
+        "Princess", "Precious", "Diamond", "Crystal", "Honey", "Rose",
+        "Mariel", "Kristine", "Kimberly", "Sharon", "Lea", "Camille",
+        "Beatrice", "Gabrielle", "Nicole"
+      ],
+      "native_tagalog_popular": [
+        "Dalisay", "Diwata", "Hiyas", "Liwayway", "Tala", "Maganda",
+        "Dakila", "Sinta", "Ligaya", "Maharlika", "Marikit"
+      ],
+      "diminutive_nicknames": [
+        "Bing", "Ging", "Ning", "Ting", "Maricel", "Malou", "Lulu",
+        "Celia", "Cely", "Bebot", "Inday", "Ate", "Nene", "Nini"
+      ]
+    },
+    "regional_names_ilocano_cebuano_waray": {
+      "_note": "Regional names flag as quasi-identifiers for location inference. Include for demographic realism in synthetic documents purporting to be from specific regions.",
+      "masculine_ilocano_influenced": ["Dagohoy", "Gabriel", "Fermin", "Roque"],
+      "masculine_cebuano_influenced": ["Elias", "Serafin", "Lope", "Eulogio"],
+      "feminine_ilocano_influenced": ["Aurora", "Serafina", "Luzviminda"],
+      "feminine_cebuano_influenced": ["Generosa", "Flordeliza", "Salvacion"]
+    }
+  },
+
+  "honorifics": {
+    "_note": "PH honorifics span Spanish, English, Tagalog, and professional registers. All should be recognized as HONORIFIC entities in FilPII taxonomy.",
+    "spanish_formal": ["Bb.", "Bb", "Gng.", "Gng", "G.", "Dr.", "Dra.", "Doktor", "Doktora"],
+    "english_professional": ["Mr.", "Mrs.", "Ms.", "Dr.", "Atty.", "Engr.", "Arch.", "Prof.", "Fr.", "Rev."],
+    "tagalog_kinship": ["Kuya", "Ate", "Manong", "Manang", "Lolo", "Lola", "Tito", "Tita", "Ninong", "Ninang", "Tatay", "Nanay", "Tay", "Nay"],
+    "regional_kinship": {
+      "cebuano": ["Manoy", "Manay", "Inday", "Dodong"],
+      "ilocano": ["Manong (shared)", "Manang (shared)"]
+    }
+  }
+}

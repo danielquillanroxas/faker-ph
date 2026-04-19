@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use faker-ph in academic work, please cite it as follows."
+title: "faker-ph: Philippine-specific synthetic PII generator"
+abstract: >-
+  A Python library that generates format-valid synthetic Philippine
+  identifiers (PhilSys, TIN, SSS, PhilHealth, UMID, PRC, etc.), PSGC-backed
+  addresses, and origin-stratified Filipino names, plus document templates
+  with character-offset gold PII spans for NLP evaluation.
+authors:
+  - family-names: Roxas
+    given-names: Daniel Quillan
+    email: danielquillanr@gmail.com
+    orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"  # TODO: fill in
+version: "0.1.0"
+date-released: "2026-04-19"
+url: "https://github.com/danielquillanroxas/faker-ph"
+license: Apache-2.0
+keywords:
+  - filipino-nlp
+  - tagalog
+  - pii
+  - synthetic-data
+  - anonymization
+preferred-citation:
+  type: software
+  title: "faker-ph: Philippine-specific synthetic PII generator"
+  authors:
+    - family-names: Roxas
+      given-names: Daniel Quillan
+  year: 2026
+  url: "https://github.com/danielquillanroxas/faker-ph"
+  # A companion paper describing the broader benchmark and evaluation is
+  # forthcoming. Update this entry once published.
